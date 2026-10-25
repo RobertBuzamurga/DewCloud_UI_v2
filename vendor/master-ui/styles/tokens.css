@@ -1,0 +1,57 @@
+/* css/tokens.css  — global design tokens */
+:root {
+  /* Shared glass physics */
+  --glass-tint-alpha-light: 0.20; /* 20% black overlay for LIGHT theme buttons */
+  --glass-tint-alpha-dark:  0.20; /* 20% white overlay for DARK theme buttons */
+  --glass-rim-alpha-light:  0.70; /* 70% black rim on light theme */
+  --glass-rim-alpha-dark:   0.70; /* 70% white rim on dark theme */
+  --glass-rim-width:        1.5px;
+  --glass-highlight-alpha:  0.50; /* top-polish intensity */
+
+  /* Icon etch gradient — 20% of background color → transparent → background color */
+  --icon-etch-start-alpha:  0.20; /* 20% */
+  --icon-etch-mid-alpha:    0.00; /* transparent midpoint */
+  --icon-etch-end-alpha:    1.00; /* solid at the end */
+
+  /* Fallbacks */
+  --bg-center: #f7fbff;
+  --bg-edge:   #cfe7ff;
+
+  --dc-neutral-bg: #f5f5f5;
+  --dc-neutral-text: #111111;
+}
+
+/* LIGHT: off-white → baby-blue edge */
+:root[data-theme="light"] {
+  /* prompt 1 background */
+  --bg-center: #ffffff;        /* off-white core */
+  --bg-edge:   #bfe0ff;        /* baby blue edge */
+  --glass-tint-color: 0 0 0;   /* black tint in oklab/oklch works too */
+  --glass-rim-color:  0 0 0;   /* black rim */
+  --icon-etch-base:   var(--bg-edge);
+}
+
+/* DARK: royal-blue center → dark navy edge */
+:root[data-theme="dark"] {
+  /* prompt 2 background */
+  --bg-center: #2a58ff;        /* royal blue core */
+  --bg-edge:   #0b1630;        /* dark navy edge */
+  --glass-tint-color: 255 255 255;  /* white tint */
+  --glass-rim-color:  255 255 255;  /* white rim */
+  --icon-etch-base:   var(--bg-center);
+}
+
+/* Optional per-app overrides:
+   just change --bg-center and --bg-edge and everything else follows */
+:root[data-app-theme="mint"] {
+  --bg-center: #f4fff9;
+  --bg-edge:   #bff7d6;
+}
+
+/* tokens.css */
+:root[data-theme="light"] {
+  --glass-tint-color: 0 0 0;      /* black */
+}
+:root[data-theme="dark"] {
+  --glass-tint-color: 255 255 255;/* white */
+}

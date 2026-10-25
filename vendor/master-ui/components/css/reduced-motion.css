@@ -1,0 +1,66 @@
+/* DewCloud Glass — Reduced Motion (merged) */
+
+/* Default PRM: keep short linear transitions, remove travel, freeze loaders via helper class */
+@media (prefers-reduced-motion: reduce) {
+  /* Avoid smooth scrolling */
+  * { scroll-behavior: auto !important; }
+
+  /* Short, predictable transitions across kit components */
+  .glass-btn,
+  .glass-toggle,
+  .glass-card,
+  .glass-slider,
+  glass-input,
+  glass-modal,
+  glass-card,
+  glass-button,
+  glass-toggle,
+  glass-slider,
+  glass-segmented,
+  glass-checkbox,
+  glass-radio,
+  glass-toast {
+    transition-duration: 0.12s !important;
+    transition-timing-function: linear !important;
+  }
+
+  /* Button press should not “travel” */
+  .glass-btn:active { transform: none !important; }
+
+  /* Freeze shimmer/skeletons */
+  .glass-skeleton { animation: none !important; background-size: 100% 100% !important; }
+
+  /* Loader swap: JS sets .rm-static-loader when PRM true */
+  .rm-static-loader #loader { display: none !important; }   /* rotating arc off */
+  .rm-static-loader #glint  { display: none !important; }   /* moving glint off */
+  .rm-static-loader .rm-loader-replacement { display: block !important; }
+
+  /* Toasts: no slide/fade theatrics */
+  glass-toast { transition: none !important; }
+}
+
+/* Hidden by default; shown only when PRM replacement is active */
+.rm-loader-replacement { display: none; pointer-events: none; }
+
+/* --- Hard PRM mode (opt-in): zero motion, mirrors strict overrides) ---
+   Apply by adding [data-hard-prm="true"] on <html> or <body> in environments that
+   require absolutely no movement. */
+@media (prefers-reduced-motion: reduce) {
+  :root[data-hard-prm="true"],
+  body[data-hard-prm="true"] {
+    /* Kill transitions entirely */
+    --_prm-zero: 0.01ms; /* Chrome/Safari friendly "nearly zero" */
+  }
+  :root[data-hard-prm="true"] *,
+  body[data-hard-prm="true"] * {
+    transition-duration: var(--_prm-zero) !important;
+    transition-delay: 0ms !important;
+    animation: none !important;
+  }
+
+  /* Also hide any indeterminate spinner marks if present */
+  :root[data-hard-prm="true"] .progress-indeterminate,
+  body[data-hard-prm="true"] .progress-indeterminate {
+    display: none !important;
+  }
+}

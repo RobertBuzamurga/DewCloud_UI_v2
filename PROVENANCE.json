@@ -1,0 +1,114 @@
+{
+  "version": "1.0.1",
+  "name": "DewCloud Liquid Glass UI Reference",
+  "status": "CORRECTIONS_VERIFIED_PENDING_OWNER_VISUAL_APPROVAL",
+  "source_commit": "462aae2a8c5a7647c66b7fa62ffbb7191aeba7ce",
+  "original_core_changed": false,
+  "source_files": [
+    {
+      "source": "master-ui/styles/tokens.css",
+      "vendored": "vendor/master-ui/styles/tokens.css",
+      "sha256": "6f7b9874c92b40bb82be70be9dda6caf816ebcaf9131802d9f8d363515f38a37"
+    },
+    {
+      "source": "master-ui/tokens/tokens.default.json",
+      "vendored": "vendor/master-ui/tokens/tokens.default.json",
+      "sha256": "50745f216c204b63290071c12dbc1d0f215e73c4848679b6d82cce6d26a7402c"
+    },
+    {
+      "source": "master-ui/tokens/glass.json",
+      "vendored": "vendor/master-ui/tokens/glass.json",
+      "sha256": "e8e87c203a350b907a00a2c671f1620227cb25a690ea54b4dc4c2ea6c74e6b11"
+    },
+    {
+      "source": "master-ui/components/css/glass-vars.css",
+      "vendored": "vendor/master-ui/components/css/glass-vars.css",
+      "sha256": "4faa862f59f354fdea3e63f0c3a894ffc0078fcb74397a312db087b95fa799ba"
+    },
+    {
+      "source": "master-ui/components/css/glass-core.css",
+      "vendored": "vendor/master-ui/components/css/glass-core.css",
+      "sha256": "d513332b87443dce40747ff64baa8ce270b8b5c2fe8cd19a8a6114a6d1cc5b50"
+    },
+    {
+      "source": "master-ui/components/css/glass-components.css",
+      "vendored": "vendor/master-ui/components/css/glass-components.css",
+      "sha256": "2bdb45c2c59258998263a50b66ee23686ba5530fa89d6e851d5e4cd23b54b79a"
+    },
+    {
+      "source": "master-ui/components/css/glass-button.css",
+      "vendored": "vendor/master-ui/components/css/glass-button.css",
+      "sha256": "1778b929b43682800095f9e8dda6ec9578d3fd6e88697b840e91575e3bb7ad8c"
+    },
+    {
+      "source": "master-ui/components/css/reduced-motion.css",
+      "vendored": "vendor/master-ui/components/css/reduced-motion.css",
+      "sha256": "fbcdbd461d1fced5ff739ccf19079da36080a15a1a2117ea2d972e25eec98aa9"
+    },
+    {
+      "source": "master-ui/assets/backgrounds/svg/background-navy-dark.svg",
+      "vendored": "vendor/master-ui/assets/backgrounds/svg/background-navy-dark.svg",
+      "sha256": "737d5e31000e674d4763170c1ed62ccdfb48a9c8f4982134a9da19d60f5ba72f"
+    },
+    {
+      "source": "master-ui/assets/backgrounds/svg/background-navy-light.svg",
+      "vendored": "vendor/master-ui/assets/backgrounds/svg/background-navy-light.svg",
+      "sha256": "f28ba3c8336bc26502e7647bed5aba500095049d1a40dcc2b43bc53b60299d05"
+    },
+    {
+      "source": "docs/USER-GUIDE.md",
+      "vendored": "vendor/docs/USER-GUIDE.md",
+      "sha256": "5e18eaf35a1ae426e05dc822540297f8cc708993ef777099da61900748572ae4"
+    },
+    {
+      "source": "docs/TECHNICAL-HANDBOOK.md",
+      "vendored": "vendor/docs/TECHNICAL-HANDBOOK.md",
+      "sha256": "a10dc80fcea2193deedea4eb71ac37b4e8674df40a0cc888e3327bce0cc348d5"
+    }
+  ],
+  "visual_references": [
+    {
+      "file": "visual-references\\reference-1.jpg",
+      "source": "1-Photo-1.jpg",
+      "sha256": "6415af4107c54e3130e98d401d0155bb7a5b5c786f7ee74f94fa01e069d0a52a"
+    },
+    {
+      "file": "visual-references\\reference-2.jpg",
+      "source": "2-Photo-2.jpg",
+      "sha256": "180a83366d1dea0caffe4152d739be2a43daf67144be36b5495df37eca46682b"
+    },
+    {
+      "file": "visual-references\\reference-3.jpg",
+      "source": "3-Photo-3.jpg",
+      "sha256": "8b7482304ca49967e6e041375c21e7fb160d480473b87ef0a4d3ad5fc5be4876"
+    }
+  ],
+  "visual_scope": "All three supplied images: material, curvature, lighting, rim and accent direction. Not a layout or data clone.",
+  "palette_scope": "Reference-specific overrides from labelled values in supplied images; not a core token change.",
+  "lighting_source_snapshot": {
+    "path": "vendor/master-ui/js/playground/playground-glass-lighting.js",
+    "sha256": "1c7766bae99343c3a7b4209a13d23674c11777c09d35fdad8b416c6bbc66a7be"
+  },
+  "foundation_styles": {
+    "file": "ui/reference.css",
+    "sha256": "d3825df1af090d889e7478b615096f2362a7fa2a2e79bc28cb664649cd115300",
+    "origin": "Previous dewcloud-ui-reference-v1.0.0 native adapter; preserved separately."
+  },
+  "material_revision": "etched.1",
+  "material_files": [
+    {
+      "file": "ui/liquid-tokens.css",
+      "sha256": "dfc5473c974a76f010eb867ddbb9c44c413c62beb877b8f63ad80813b5654202"
+    },
+    {
+      "file": "ui/liquid-tokens.json",
+      "sha256": "6efb1ef66d24e472a93cecf59a4dd707a22e43ac2698dc323f432d9423903646"
+    },
+    {
+      "file": "ui/liquid-glass.css",
+      "sha256": "5fa201f2e11919fa2089d469dff6d8a1dca65aa25590486df4d581b42d5a7ab1"
+    }
+  ],
+  "previous_version": "1.0.0 / lighting.1",
+  "previous_inventory_sha256": "ba2393639ede0d41853f027d5dfbd05d351ed7fc0f16132e6d04f397a86fc3dc"
+}

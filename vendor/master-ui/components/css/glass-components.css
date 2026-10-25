@@ -1,0 +1,19 @@
+/* Primitives */
+.glass-surface { position:relative; display:inline-grid; place-items:center; -webkit-tap-highlight-color:transparent; color:var(--text); }
+.glass-btn { --size:92px; width:var(--size); height:var(--size); border:0; background:transparent; border-radius:999px; display:inline-grid; place-items:center; cursor:pointer; filter:drop-shadow(0 10px var(--shadow-softness) hsl(0 0% 0% / var(--shadow-depth))); transition: transform .12s ease, filter .12s ease; }
+.glass-btn:active { transform: translateY(2px) scale(.985); filter: drop-shadow(0 6px calc(var(--shadow-softness) - 6px) hsl(0 0% 0% / calc(var(--shadow-depth) + .1))); }
+.glass-btn[aria-pressed="true"] .fill-accent { opacity:.30; mix-blend-mode:screen; }
+.glass-icon { width:40%; height:40%; opacity:.9; }
+
+.glass-card { --radius:18px; --pad:16px; border-radius:var(--radius); padding:var(--pad); background:var(--glass-tint); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: 0 16px 40px hsl(0 0% 0% / .18); border: 1px solid hsl(0 0% 100% / .10); }
+.glass-card.is-focus-visible { outline:2px solid color-mix(in hsl, var(--accent) 50%, transparent); outline-offset:3px; }
+
+.glass-toggle { --w:84px; --h:44px; width:var(--w); height:var(--h); border-radius:999px; background:var(--glass-tint); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); position:relative; border: 1px solid hsl(0 0% 100% / .08); box-shadow: inset 0 2px 4px hsl(0 0% 0% / .12), 0 10px 24px hsl(0 0% 0% / .18); }
+.glass-toggle .knob { position:absolute; inset:4px auto 4px 4px; width:calc(var(--h) - 8px); height:calc(var(--h) - 8px); transition: inset .18s cubic-bezier(.2,.8,.2,1); }
+.glass-toggle[aria-checked="true"] .knob { inset: 4px 4px 4px auto; }
+.glass-toggle[aria-checked="true"] { box-shadow: inset 0 2px 6px hsl(210 90% 30% / .25), 0 10px 24px hsl(210 60% 40% / .25); outline: .5px solid color-mix(in hsl, var(--accent) 25%, transparent); }
+
+.glass-slider { --w:320px; --h:6px; width:var(--w); height:var(--h); border-radius:999px; background: color-mix(in hsl, var(--glass-tint) 80%, transparent); position:relative; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.glass-slider .thumb { position:absolute; top:50%; left:0; transform: translate(-50%, -50%); width:28px; height:28px; border-radius:999px; }
+
+.visually-hidden { position:absolute!important; clip:rect(1px,1px,1px,1px); padding:0!important; border:0!important; height:1px!important; width:1px!important; overflow:hidden; white-space:nowrap; }

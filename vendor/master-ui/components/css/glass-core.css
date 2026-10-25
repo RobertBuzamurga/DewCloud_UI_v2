@@ -1,0 +1,86 @@
+/*
+ * Core styles for DewCloud glass UI kit. This stylesheet defines
+ * classes that can be used standalone or inside Web Components. It
+ * depends on variables defined in glass-vars.css. If the browser
+ * doesn't support backdrop-filter, a solid but semi‑transparent
+ * fallback is used instead.
+ */
+
+/* Provide a default glass surface appearance. */
+.glass {
+  position: relative;
+  background: var(--glass-tint-light);
+  border-radius: 12px;
+  box-shadow: 0 4px var(--shadow-softness) rgba(0, 0, 0, var(--shadow-depth));
+  overflow: hidden;
+}
+
+/* Adjust background for dark mode. */
+[data-theme="dark"] .glass {
+  background: var(--glass-tint-dark);
+}
+
+/* Use backdrop-filter when available for true glassmorphism. */
+@supports ((backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px))) {
+  .glass {
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    background: var(--glass-tint-light);
+  }
+  [data-theme="dark"] .glass {
+    background: var(--glass-tint-dark);
+  }
+}
+
+/* Fallback when backdrop-filter is not supported. */
+@supports not ((backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px))) {
+  .glass::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    filter: blur(8px);
+    z-index: -1;
+  }
+}
+
+/* Polished rim highlight applied via a custom property on stroke. */
+.glass-rim {
+  border: none;
+  outline: none;
+  background: transparent;
+  box-shadow: 0 0 0 2px rgba(255,255,255,var(--rim-polish));
+}
+
+/* Simple animation for active elements. Use transforms for GPU acceleration. */
+.glass-active {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.glass-active:active {
+  transform: translateY(2px) scale(0.985);
+  box-shadow: 0 2px calc(var(--shadow-softness) - 6px) rgba(0, 0, 0, calc(var(--shadow-depth) + 0.1));
+}
+
+/* Skeleton / shimmer effect. Web components can apply this class to slots. */
+.glass-skeleton {
+  background: linear-gradient(90deg, rgba(255,255,255,0.1) 25%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.1) 75%)
+    var(--skeleton-position, 0) / 200% 100%;
+  animation: shimmer 1.6s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    --skeleton-position: 100%;
+  }
+  100% {
+    --skeleton-position: -100%;
+  }
+}
+
+/* Reduced motion disables shimmer animation. */
+@media (prefers-reduced-motion: reduce) {
+  .glass-skeleton {
+    animation: none;
+    background-size: 100% 100%;
+  }
+}

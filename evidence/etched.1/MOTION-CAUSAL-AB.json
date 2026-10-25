@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "variant": "old",
+      "mode": "reduce",
+      "query": true,
+      "disabled": false,
+      "input": "pointer",
+      "status": "Cursor-responsive rims · tilt off"
+    },
+    {
+      "variant": "old",
+      "mode": "no-preference",
+      "query": false,
+      "disabled": false,
+      "input": "pointer",
+      "status": "Cursor-responsive rims · tilt off"
+    },
+    {
+      "variant": "old",
+      "mode": "reduce",
+      "query": true,
+      "disabled": false,
+      "input": "pointer",
+      "status": "Cursor-responsive rims · tilt off"
+    },
+    {
+      "variant": "old",
+      "mode": "no-preference",
+      "query": false,
+      "disabled": false,
+      "input": "pointer",
+      "status": "Cursor-responsive rims · tilt off"
+    },
+    {
+      "variant": "cached-only",
+      "mode": "reduce",
+      "query": true,
+      "disabled": true,
+      "input": "static",
+      "status": "Reduced motion · static rim lighting"
+    },
+    {
+      "variant": "cached-only",
+      "mode": "no-preference",
+      "query": false,
+      "disabled": false,
+      "input": "static",
+      "status": "Cursor-responsive rims · tilt off"
+    },
+    {
+      "variant": "cached-only",
+      "mode": "reduce",
+      "query": true,
+      "disabled": true,
+      "input": "static",
+      "status": "Reduced motion · static rim lighting"
+    },
+    {
+      "variant": "cached-only",
+      "mode": "no-preference",
+      "query": false,
+      "disabled": false,
+      "input": "static",
+      "status": "Cursor-responsive rims · tilt off"
+    }
+  ],
+  "note": "Same old reference CSS/HTML; only media-query state ownership and callback binding differ in the B response. No source files are modified by interception.",
+  "status": "PASS_CAUSAL_AB"
+}

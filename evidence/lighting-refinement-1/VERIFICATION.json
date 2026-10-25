@@ -1,0 +1,10 @@
+{
+  "materialRevision": "lighting.1",
+  "status": "PASS_TARGETED",
+  "referenceViews": 6,
+  "contrastSamples": 42,
+  "minimumContrast": 5.56,
+  "controllerChanged": false,
+  "nativeSensorTested": false,
+  "liveMotionEmulation": "inconsistent; initial-preference fallback passed"
+}

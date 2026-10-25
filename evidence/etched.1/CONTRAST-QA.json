@@ -1,0 +1,247 @@
+{
+  "status": "PASS",
+  "method": "Actual rendered background crop through centre 44% of control, with ink temporarily hidden; computed foreground converted through canvas to sRGB; no whole-control opacity in these active samples. Targeted AA normal-text checks, not full WCAG certification.",
+  "samples": [
+    {
+      "theme": "dark",
+      "control": "ordinary",
+      "state": "default",
+      "minimumSampledRatio": 9.08,
+      "foreground": [
+        217,
+        225,
+        233
+      ],
+      "backgroundFile": "screenshots/dark-ordinary-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "ordinary",
+      "state": "hover",
+      "minimumSampledRatio": 6.72,
+      "foreground": [
+        191,
+        247,
+        238
+      ],
+      "backgroundFile": "screenshots/dark-ordinary-hover-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "primary",
+      "state": "default",
+      "minimumSampledRatio": 8.92,
+      "foreground": [
+        217,
+        225,
+        233
+      ],
+      "backgroundFile": "screenshots/dark-primary-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "primary",
+      "state": "hover",
+      "minimumSampledRatio": 6.48,
+      "foreground": [
+        191,
+        219,
+        253
+      ],
+      "backgroundFile": "screenshots/dark-primary-hover-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "navigation",
+      "state": "default",
+      "minimumSampledRatio": 8.98,
+      "foreground": [
+        217,
+        225,
+        233
+      ],
+      "backgroundFile": "screenshots/dark-navigation-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "navigation",
+      "state": "hover",
+      "minimumSampledRatio": 6.82,
+      "foreground": [
+        191,
+        247,
+        238
+      ],
+      "backgroundFile": "screenshots/dark-navigation-hover-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "selected",
+      "state": "default",
+      "minimumSampledRatio": 5.19,
+      "foreground": [
+        191,
+        247,
+        238
+      ],
+      "backgroundFile": "screenshots/dark-selected-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "selected",
+      "state": "hover",
+      "minimumSampledRatio": 5.19,
+      "foreground": [
+        191,
+        247,
+        238
+      ],
+      "backgroundFile": "screenshots/dark-selected-hover-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "disabled",
+      "state": "default",
+      "minimumSampledRatio": 10.67,
+      "foreground": [
+        217,
+        225,
+        233
+      ],
+      "backgroundFile": "screenshots/dark-disabled-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "control": "ordinary",
+      "state": "focus",
+      "minimumSampledRatio": 6.72,
+      "foreground": [
+        191,
+        247,
+        238
+      ],
+      "backgroundFile": "screenshots/dark-focus-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "ordinary",
+      "state": "default",
+      "minimumSampledRatio": 10.38,
+      "foreground": [
+        39,
+        57,
+        74
+      ],
+      "backgroundFile": "screenshots/light-ordinary-default-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "ordinary",
+      "state": "hover",
+      "minimumSampledRatio": 6.85,
+      "foreground": [
+        35,
+        84,
+        94
+      ],
+      "backgroundFile": "screenshots/light-ordinary-hover-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "primary",
+      "state": "default",
+      "minimumSampledRatio": 10.23,
+      "foreground": [
+        39,
+        57,
+        74
+      ],
+      "backgroundFile": "screenshots/light-primary-default-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "primary",
+      "state": "hover",
+      "minimumSampledRatio": 7.39,
+      "foreground": [
+        35,
+        67,
+        103
+      ],
+      "backgroundFile": "screenshots/light-primary-hover-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "navigation",
+      "state": "default",
+      "minimumSampledRatio": 10.38,
+      "foreground": [
+        39,
+        57,
+        74
+      ],
+      "backgroundFile": "screenshots/light-navigation-default-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "navigation",
+      "state": "hover",
+      "minimumSampledRatio": 6.79,
+      "foreground": [
+        35,
+        84,
+        94
+      ],
+      "backgroundFile": "screenshots/light-navigation-hover-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "selected",
+      "state": "default",
+      "minimumSampledRatio": 6.54,
+      "foreground": [
+        35,
+        84,
+        94
+      ],
+      "backgroundFile": "screenshots/light-selected-default-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "selected",
+      "state": "hover",
+      "minimumSampledRatio": 6.54,
+      "foreground": [
+        35,
+        84,
+        94
+      ],
+      "backgroundFile": "screenshots/light-selected-hover-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "disabled",
+      "state": "default",
+      "minimumSampledRatio": 10.8,
+      "foreground": [
+        39,
+        57,
+        74
+      ],
+      "backgroundFile": "screenshots/light-disabled-default-background.png"
+    },
+    {
+      "theme": "light",
+      "control": "ordinary",
+      "state": "focus",
+      "minimumSampledRatio": 6.85,
+      "foreground": [
+        35,
+        84,
+        94
+      ],
+      "backgroundFile": "screenshots/light-focus-background.png"
+    }
+  ],
+  "minimum": 5.19
+}

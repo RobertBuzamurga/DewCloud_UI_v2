@@ -1,0 +1,106 @@
+/* glass-button.css */
+.glass-btn {
+	position: relative;
+	display: inline-grid;
+	place-items: center;
+	width: 72px;
+	height: 72px;
+	/* tokenizable */
+	border-radius: 999px;
+	background: transparent;
+	/* see-through */
+	-webkit-backdrop-filter: blur(6px);
+	backdrop-filter: blur(6px);
+	overflow: hidden;
+	/* clip inner overlays */
+	isolation: isolate;
+	/* keep internal blending local */
+	/* UX niceties */
+	cursor: pointer;
+	touch-action: manipulation;
+}
+
+/* Dark or light physics auto-pick via theme */
+.glass-btn::before {
+	/* Tint overlay (sits above background) */
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: inherit;
+	background: rgb(var(--glass-tint-color) / var(--glass-tint-alpha));
+	/* default alpha; dark theme overrides below */
+	--glass-tint-alpha: var(--glass-tint-alpha-light, .20);
+}
+
+:root[data-theme="dark"] .glass-btn::before {
+	--glass-tint-alpha: var(--glass-tint-alpha-dark, .20);
+}
+
+/* Rim polish */
+.glass-btn::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: inherit;
+	box-shadow:
+		0 0 0 var(--glass-rim-width, 1.5px) rgb(var(--glass-rim-color) / var(--glass-rim-alpha)) inset,
+		0 -10% 18% rgb(255 255 255 / var(--glass-highlight-alpha, .5)) inset;
+	/* top highlight */
+	pointer-events: none;
+	--glass-rim-alpha: var(--glass-rim-alpha-light, .70);
+}
+
+:root[data-theme="dark"] .glass-btn::after {
+	--glass-rim-alpha: var(--glass-rim-alpha-dark, .70);
+}
+
+/* Focus/keyboard accessibility */
+.glass-btn:focus-visible {
+	outline: 2px solid color-mix(in oklab, var(--bg-center, #fff), #00aaff 40%);
+	outline-offset: 3px;
+	border-radius: inherit;
+}
+
+/* High-contrast (Windows/forced colors) */
+@media (forced-colors: active) {
+	.glass-btn {
+		-webkit-backdrop-filter: none;
+		backdrop-filter: none;
+		background: Canvas;
+		box-shadow: none;
+		border: 2px solid ButtonText;
+	}
+}
+
+/* Size tokens (optional) */
+.glass-btn[data-size="44"] {
+	width: 44px;
+	height: 44px;
+}
+
+.glass-btn[data-size="72"] {
+	width: 72px;
+	height: 72px;
+}
+
+.glass-btn[data-size="100"] {
+	width: 100px;
+	height: 100px;
+}
+
+/* === Fallback for older browsers === */
+@supports not (color: rgb(0 0 0 / .5)) {
+  .glass-btn::before { background: rgba(0,0,0,.20); }          /* light */
+  :root[data-theme="dark"] .glass-btn::before { background: rgba(255,255,255,.20); }
+
+  .glass-btn::after {
+    box-shadow:
+      0 0 0 var(--glass-rim-width, 1.5px) rgba(0,0,0,.70) inset,
+      0 -10% 18% rgba(255,255,255,.5) inset;
+  }
+  :root[data-theme="dark"] .glass-btn::after {
+    box-shadow:
+      0 0 0 var(--glass-rim-width, 1.5px) rgba(255,255,255,.70) inset,
+      0 -10% 18% rgba(255,255,255,.5) inset;
+  }
+}

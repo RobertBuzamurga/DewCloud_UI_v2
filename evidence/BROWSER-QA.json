@@ -1,0 +1,443 @@
+{
+  "status": "PASS",
+  "browser": "156.0.8078.47",
+  "browser_plugin": "not available; installed Playwright fallback",
+  "captures": [
+    {
+      "name": "reference-dark-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-actions-dark-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-workspace-dark-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-states-dark-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-access-dark-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-dialog-dark-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-low-effects-dark-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1804,
+      "broken": []
+    },
+    {
+      "name": "reference-light-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-actions-light-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-workspace-light-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-states-light-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-access-light-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-dialog-light-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-low-effects-light-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1804,
+      "broken": []
+    },
+    {
+      "name": "reference-dark-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-actions-dark-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-workspace-dark-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-states-dark-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-access-dark-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-light-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-actions-light-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-workspace-light-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-states-light-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-access-light-tablet",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-dark-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-actions-dark-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-workspace-dark-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-states-dark-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-access-dark-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-light-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-actions-light-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-workspace-light-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-states-light-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-access-light-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "lighting-left-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "lighting-right-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-pressed-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-reduced-motion-desktop",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    },
+    {
+      "name": "reference-simulated-tilt-mobile",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "title": "DewCloud Liquid Glass \u00c2\u00b7 Reference 1.0.0",
+      "mainLength": 1803,
+      "broken": []
+    }
+  ],
+  "lighting": {
+    "pointer": {
+      "left": {
+        "color": "rgb(229, 231, 235)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(rgba(78, 130, 176, 0.48), rgba(14, 46, 76, 0.88))",
+        "border": "rgba(171, 210, 244, 0.47)",
+        "blur": "blur(10px)",
+        "filter": "none",
+        "opacity": "1",
+        "blend": "normal",
+        "radius": "999px",
+        "outline": "rgb(229, 231, 235) none 3px",
+        "transform": "none",
+        "angle": "-44.88deg",
+        "x": "31.26%",
+        "transition": "0.11s, 0.11s",
+        "font": "system-ui, -apple-system, \"Segoe UI\", sans-serif"
+      },
+      "right": {
+        "color": "rgb(229, 231, 235)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(rgba(78, 130, 176, 0.48), rgba(14, 46, 76, 0.88))",
+        "border": "rgba(171, 210, 244, 0.47)",
+        "blur": "blur(10px)",
+        "filter": "none",
+        "opacity": "1",
+        "blend": "normal",
+        "radius": "999px",
+        "outline": "rgb(229, 231, 235) none 3px",
+        "transform": "none",
+        "angle": "134.88deg",
+        "x": "68.73%",
+        "transition": "0.11s, 0.11s",
+        "font": "system-ui, -apple-system, \"Segoe UI\", sans-serif"
+      }
+    },
+    "disabled_static": true,
+    "no_idle_raf": true,
+    "pressed": {
+      "color": "rgb(31, 36, 46)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "linear-gradient(rgba(18, 91, 112, 0.95), rgba(11, 49, 73, 0.95))",
+      "border": "rgba(191, 234, 255, 0.97)",
+      "blur": "blur(10px)",
+      "filter": "none",
+      "opacity": "1",
+      "blend": "normal",
+      "radius": "999px",
+      "outline": "rgb(31, 36, 46) none 3px",
+      "transform": "matrix(1, 0, 0, 1, 0, 1)",
+      "angle": "19.07deg",
+      "x": "40.76%",
+      "transition": "0.11s, 0.11s",
+      "font": "system-ui, -apple-system, \"Segoe UI\", sans-serif"
+    },
+    "reduced_motion_static": true
+  },
+  "synthetic_sensor_tests": [
+    {
+      "case": "granted",
+      "status": "PASS_SYNTHETIC",
+      "permission_calls": 1
+    },
+    {
+      "case": "denied",
+      "status": "PASS_SYNTHETIC",
+      "permission_calls": 1
+    },
+    {
+      "case": "throws",
+      "status": "PASS_SYNTHETIC",
+      "permission_calls": 1
+    },
+    {
+      "case": "unsupported",
+      "status": "PASS_SYNTHETIC",
+      "permission_calls": 0
+    }
+  ],
+  "native_sensor_device_tested": false,
+  "errors": [],
+  "warnings": [],
+  "external_requests": [],
+  "non_get_requests": []
+}

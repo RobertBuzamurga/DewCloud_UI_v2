@@ -1,0 +1,73 @@
+/* DewCloud — Base design tokens (merged) */
+/* Exposes both a unified --glass-tint and the light/dark pair so either style works. */
+
+/* Base (light by default) */
+:root {
+  /* Accent & text */
+  --accent: hsl(200 85% 60%);
+  --text:   hsl(220 20% 15%);
+
+  /* Glass tint – unified + split */
+  --glass-tint: hsl(210 20% 98% / .75);
+  --glass-tint-light: rgba(255, 255, 255, 0.6);
+  --glass-tint-dark:  rgba(25, 28, 33, 0.4);
+
+  /* Extra material knobs */
+  --glass-translucency: .55;    /* from original vars */
+  --frost-grain:        .08;    /* from original vars */
+
+  /* Lighting & depth */
+  --rim-polish: .90; /* polished rim for stronger specular highlight in the light theme */
+  --highlight-angle: 35deg;
+  --highlight-width: .12;
+  --shadow-depth: .30;
+  --shadow-softness: 18px;
+
+  /* Button gradient tokens (default/light)
+   * These control the radial gradient fill and inner shade for the glass button.
+   * Adjust the alpha values to tweak the frosted appearance or rim glow.
+   */
+  /* Tuned button fill for light theme (photo reference)
+     A bright frosted centre with subtle falloff and a gentle rim shadow. */
+  --btn-fill0: rgba(255,255,255,.85);
+  --btn-fill60: rgba(240,245,248,.55);
+  --btn-fill100: rgba(220,230,240,.35);
+  --btn-inner-shade-start: rgba(255,255,255,0);
+  --btn-inner-shade-end: rgba(0,0,0,.12);
+}
+
+/* Theme overrides */
+:root[data-theme="dark"] {
+  /* Tint pair (from -2/-3) */
+  --glass-tint-light: rgba(25, 28, 33, 0.6);
+  --glass-tint-dark:  rgba(10, 12, 16, 0.55);
+  /* Unified tint (from original) */
+  --glass-tint: hsl(210 10% 20% / .45);
+
+  --accent: hsl(200 75% 65%);
+  --text:   hsl(220 25% 92%);
+  --shadow-depth: .45;
+  --rim-polish: .95; /* extra polish for the rim in the dark theme */
+
+  /* Button gradient tokens (dark)
+   * Dark theme values are more muted to preserve contrast on darker backgrounds.
+   */
+  /* Tuned button fill for dark theme (photo reference)
+     A cool grey interior with a gentle glow and a stronger rim shadow. */
+  --btn-fill0: rgba(230,240,250,.10);
+  --btn-fill60: rgba(200,210,225,.08);
+  --btn-fill100: rgba(180,190,205,.06);
+  --btn-inner-shade-start: rgba(0,0,0,0);
+  --btn-inner-shade-end: rgba(0,0,0,.28);
+}
+
+/*
+ * The graphite and high‑contrast themes have been retired. If you wish to
+ * experiment with alternative looks, define your own `[data-theme]` selectors
+ * below using the same variables as the light/dark themes.
+ */
+
+/* Motion safety: flatten highlight direction when users prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  :root { --highlight-angle: 0deg; }
+}

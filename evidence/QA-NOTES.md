@@ -1,0 +1,1 @@
+Final action colours are verified in ACTION-STATES-QA.json and ACTION-CONTRAST-RESULTS.json. The initial pressed-style sample in BROWSER-QA.json predates the inherited hover-rule correction. Final responsive and selected-icon captures are recorded in VISUAL-REFRESH-QA.json. Sensor checks are synthetic, not native-device certification.

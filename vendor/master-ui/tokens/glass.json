@@ -1,0 +1,56 @@
+{
+  "version": "1.1.0",
+  "description": "DewCloud Glass UI tokens — unified (material, motion, lighting) with CSS var export",
+  "tokens": {
+    "color": {
+      "accent": "hsl(210 90% 60%)",
+      "glassTintLight": "hsl(210 20% 98% / 0.75)",
+      "glassTintDark": "hsl(210 10% 20% / 0.45)",
+      "textOnLight": "hsl(220 20% 15%)",
+      "textOnDark": "hsl(220 25% 92%)"
+    },
+    "glass": {
+      "translucency": 0.55,
+      "rimPolish": 0.85,
+      "frostGrain": 0.08
+    },
+    "shadow": {
+      "softness": 18,
+      "depthLight": 0.3,
+      "depthDark": 0.45
+    },
+    "lighting": {
+      "highlightAngleDeg": 35,
+      "highlightWidth": 0.12
+    },
+    "motion": {
+      "pressDownMs": 110,
+      "pressUpMs": 150,
+      "overshoot": 1.06
+    },
+    "elevation": {
+      "0": { "blur": 6,  "offsetY": 1,  "alpha": 0.10 },
+      "1": { "blur": 12, "offsetY": 6,  "alpha": 0.22 },
+      "2": { "blur": 18, "offsetY": 10, "alpha": 0.32 },
+      "3": { "blur": 26, "offsetY": 16, "alpha": 0.42 }
+    },
+    "cssVars": {
+      "--accent": "hsl(200 85% 60%)",
+      "--glass-tint-light": "rgba(255, 255, 255, 0.6)",
+      "--glass-tint-dark": "rgba(25, 28, 33, 0.4)",
+      "--rim-polish": "0.85",
+      "--highlight-angle": "35deg",
+      "--highlight-width": "0.12",
+      "--shadow-depth": "0.30",
+      "--shadow-softness": "18px"
+    }
+  },
+  "meta": {
+    "sources": [
+      "glass.json (structured)",
+      "glass-2.json (flat CSS vars)",
+      "glass-3.json (flat CSS vars, duplicate of glass-2)"
+    ],
+    "notes": "Retains structured tokens for cross-platform use and exports a flat cssVars map for direct CSS consumption."
+  }
+}

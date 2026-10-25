@@ -1,0 +1,18 @@
+{
+  "errors": [],
+  "screens": [
+    "reference-dark-mobile",
+    "reference-actions-dark-mobile",
+    "reference-workspace-dark-mobile",
+    "reference-states-dark-mobile",
+    "reference-access-dark-mobile",
+    "reference-light-mobile",
+    "reference-actions-light-mobile",
+    "reference-workspace-light-mobile",
+    "reference-states-light-mobile",
+    "reference-access-light-mobile"
+  ],
+  "status": "PASS",
+  "touch_context": true,
+  "native_device_tested": false
+}

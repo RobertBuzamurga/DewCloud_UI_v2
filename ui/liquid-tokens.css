@@ -1,0 +1,53 @@
+/* DewCloud Liquid Glass 1.0.1 / etched.1. Reference-specific layer; upstream tokens stay intact. */
+:root{
+ --dc-teal-100:#5eead4;--dc-teal-200:#2dd4bf;--dc-blue-100:#60a5fa;--dc-blue-200:#3b82f6;
+ --dc-bg:#132139;--dc-surface:#18263b;--dc-text:#e5e7eb;--dc-muted:#b8cde0;
+ --dc-panel:rgba(18,44,69,.88);--dc-control-top:rgba(90,153,203,.58);--dc-control-bottom:rgba(19,59,93,.90);
+ --dc-line:rgba(171,210,244,.55);--dc-rim-hot:rgba(235,251,255,.98);--dc-rim-cool:rgba(94,234,212,.72);
+ --dc-solid:#19334e;--dc-focus:#5eead4;--dc-danger:#fda4b5;--dc-danger-fill:#63263f;
+ --dc-radius-panel:18px;--dc-radius-control:999px;--dc-radius-field:14px;--dc-blur:10px;
+ --dc-shadow:0 14px 30px rgba(0,6,18,.32);--dc-inner:inset 0 1px 2px rgba(235,251,255,.38),inset 0 -2px 5px rgba(0,4,16,.22);
+ --dc-bg-ambient:#16445f;--dc-bg-start:#0c1e32;--dc-bg-end:#10283f;
+ --dc-rim-width:1.5px;--dc-icon-rim-width:1.9px;--dc-rim-rest:.52;--dc-rim-response:.46;
+ --dc-reflection-top:rgba(221,245,255,.17);--dc-reflection-wash:rgba(228,248,255,.07);--dc-reflection-base:rgba(39,150,200,.06);
+ --dc-control-illumination:inset 0 0 16px rgba(78,178,231,.13);
+ --dc-hover-illumination:inset 0 0 16px rgba(78,178,231,.18);--dc-hover-glow:0 0 16px rgba(75,185,234,.23);
+ --dc-motion-fast:110ms;--dc-motion-settle:180ms;--dc-ease:cubic-bezier(.2,.7,.2,1);
+ --dc-rim-angle:35deg;--dc-light-x:38%;--dc-light-y:16%;--dc-light-strength:.4;
+ --text:var(--dc-text);--muted:var(--dc-muted);--accent:var(--dc-teal-100);--solid-surface:var(--dc-solid);--danger:var(--dc-danger);
+}
+:root[data-theme=light]{
+ --dc-reflection-top:rgba(221,245,255,.15);--dc-reflection-wash:rgba(228,248,255,.06);--dc-reflection-base:rgba(39,150,200,.05);
+ --dc-control-illumination:inset 0 0 16px rgba(78,148,201,.08);--dc-hover-illumination:inset 0 0 16px rgba(78,148,201,.12);
+ --dc-hover-glow:0 0 14px rgba(47,117,173,.17);
+ --dc-bg:#eaf3ff;--dc-surface:#fff;--dc-text:#1f2933;--dc-muted:#3d5368;
+ --dc-panel:rgba(245,250,255,.91);--dc-control-top:rgba(255,255,255,.96);--dc-control-bottom:rgba(194,218,240,.85);
+ --dc-line:rgba(44,78,109,.65);--dc-rim-hot:rgba(255,255,255,1);--dc-rim-cool:rgba(39,100,160,.65);
+ --dc-solid:#edf4fb;--dc-focus:#165b9b;--dc-danger:#982440;--dc-danger-fill:#f9dce5;
+ --dc-shadow:0 10px 26px rgba(24,52,85,.16);--dc-inner:inset 0 1px 1px #fff,inset 0 -2px 5px rgba(53,98,142,.15);
+}
+
+/* Etched.1: neutral resting controls; accent belongs to engraved ink and its diffused light. */
+:root{
+ --dc-control-top:rgba(106,121,140,.26);--dc-control-bottom:rgba(29,43,60,.94);
+ --dc-control-illumination:inset 0 0 14px rgba(210,231,246,.035);
+ --dc-rim-rest:.30;--dc-rim-response:.20;
+ --dc-accent:#5eead4;--dc-etch-ink:#d9e1e9;--dc-lit-ink:color-mix(in srgb,var(--dc-accent) 40%,#fff);
+ --dc-etch-cut:rgba(0,6,16,.72);--dc-etch-lip:rgba(238,249,255,.13);
+ --dc-etch-fill:rgba(27,41,58,.92);--dc-selected-fill:color-mix(in srgb,var(--dc-accent) 13%,#162a3c);
+ --dc-energy:color-mix(in srgb,var(--dc-accent) 24%,transparent);
+ --dc-ink-halo:color-mix(in srgb,var(--dc-accent) 44%,transparent);
+ --dc-rim-accent:color-mix(in srgb,var(--dc-accent) 65%,#e5f5ff);
+ --dc-etch-foreground-ms:85ms;--dc-etch-interior-ms:240ms;--dc-etch-interior-delay:75ms;
+ --dc-etch-rim-ms:180ms;--dc-etch-rim-delay:150ms;
+}
+:root[data-theme=light]{
+ --dc-control-top:rgba(255,255,255,.97);--dc-control-bottom:rgba(223,230,237,.94);
+ --dc-control-illumination:inset 0 0 14px rgba(74,91,111,.035);
+ --dc-etch-ink:#27394a;--dc-lit-ink:color-mix(in srgb,var(--dc-accent) 24%,#102439);
+ --dc-etch-cut:rgba(21,41,61,.18);--dc-etch-lip:rgba(255,255,255,.85);
+ --dc-etch-fill:#edf2f7;--dc-selected-fill:color-mix(in srgb,var(--dc-accent) 16%,#eaf1f7);
+ --dc-energy:color-mix(in srgb,var(--dc-accent) 30%,transparent);
+ --dc-ink-halo:color-mix(in srgb,var(--dc-accent) 24%,transparent);
+ --dc-rim-accent:color-mix(in srgb,var(--dc-accent) 42%,#31566d);
+}

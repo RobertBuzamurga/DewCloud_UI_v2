@@ -1,0 +1,13 @@
+import {setup,notify} from './ui/controls.js';
+setup();const dialog=document.querySelector('#dialog');
+document.querySelector('#open-dialog').onclick=document.querySelector('#destructive').onclick=()=>dialog.showModal();
+document.querySelector('#confirm').onclick=()=>{dialog.close();notify('Example removed. No real data was changed.');};
+document.querySelector('#primary-action').onclick=()=>notify('Example saved locally for this demonstration.');
+document.querySelectorAll('[data-notify]').forEach(b=>b.onclick=()=>notify(b.dataset.notify));
+document.querySelector('#selected-icon').onclick=e=>{const b=e.currentTarget,on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',String(on));b.classList.toggle('is-selected',on);};
+document.querySelectorAll('[data-period]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-period]').forEach(a=>a.setAttribute('aria-pressed',String(a===b)));document.querySelector('#period-status').textContent=b.textContent+' selected';});
+document.querySelector('#example-form').onsubmit=e=>{e.preventDefault();notify('Example form is valid. No request was sent.');};
+document.querySelector('#auth-form').onsubmit=e=>{e.preventDefault();e.target.reset();notify('Layout only. No credentials were sent or stored.');};
+const rows=[...document.querySelectorAll('#ledger tr')];document.querySelector('#table-search').oninput=e=>{let count=0;for(const row of rows){row.hidden=!row.textContent.toLowerCase().includes(e.target.value.toLowerCase());if(!row.hidden)count++;}document.querySelector('#entry-count').textContent=count+' entries';document.querySelector('#ledger-empty').hidden=count>0;};
+document.querySelector('#advance-progress').onclick=()=>{const p=document.querySelector('#example-progress');p.value=p.value>=100?0:p.value+20;document.querySelector('#progress-label').textContent=p.value+'% · example state';};
+document.querySelectorAll('.nav a,.side-nav a').forEach(a=>a.onclick=()=>{document.querySelectorAll('.nav a,.side-nav a').forEach(n=>n.removeAttribute('aria-current'));document.querySelectorAll(`a[href="${a.hash}"]`).forEach(n=>n.setAttribute('aria-current','location'));});

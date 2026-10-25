@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "DewCloud Default",
+    "version": "1.0.0",
+    "updated": "2025-08-24T00:00:00Z"
+  },
+  "color": {
+    "accent": "hsl(210 90% 65%)",
+    "text": "hsl(220 25% 92%)",
+    "glassTint": "hsl(210 10% 20% / .45)"
+  },
+  "elevation": {
+    "shadowDepth": 0.45
+  },
+  "specular": {
+    "rimPolish": 0.85,
+    "highlightAngle": "35deg",
+    "highlightWidth": 0.12
+  },
+  "radius": {
+    "xs": 8,
+    "sm": 10,
+    "md": 14,
+    "lg": 18
+  },
+  "spacing": {
+    "base": 8,
+    "scale": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      32,
+      40,
+      48
+    ]
+  },
+  "motion": {
+    "reduced": false
+  }
+}

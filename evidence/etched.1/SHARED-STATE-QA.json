@@ -1,0 +1,1820 @@
+{
+  "version": "1.0.1",
+  "material": "etched.1",
+  "status": "PASS_LOCAL_BROWSER_VERIFICATION_PENDING_OWNER_VISUAL_APPROVAL",
+  "sequences": [
+    {
+      "theme": "dark",
+      "resting": {
+        "color": "rgb(217, 225, 233)",
+        "colorRGB": [
+          217,
+          225,
+          233
+        ],
+        "textShadow": "rgba(0, 6, 16, 0.72) 0px -1px 1px, rgba(238, 249, 255, 0.13) 0px 1px 0px",
+        "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+        "energy": 0.1,
+        "rim": 0.26,
+        "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+        "angle": "35deg",
+        "strength": ".4",
+        "outline": "rgb(217, 225, 233) none 3px",
+        "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+        "disabled": false,
+        "selected": null,
+        "rect": {
+          "width": 64,
+          "height": 64
+        },
+        "iconFilter": "drop-shadow(rgba(0, 6, 16, 0.72) 0px -0.5px 0.4px) drop-shadow(rgba(238, 249, 255, 0.13) 0px 0.5px 0.2px)",
+        "iconColor": "rgb(217, 225, 233)",
+        "reflectionDisplay": "block"
+      },
+      "frames": [
+        {
+          "t": 4.0999999940395355,
+          "color": "rgb(217, 225, 233)",
+          "shadow": "rgba(0, 6, 16, 0.72) 0px -1px 1px, rgba(238, 249, 255, 0.13) 0px 1px 0px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 35.19999998807907,
+          "color": "rgb(217, 225, 233)",
+          "shadow": "rgba(0, 6, 16, 0.72) 0px -1px 1px, rgba(238, 249, 255, 0.13) 0px 1px 0px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 68.09999999403954,
+          "color": "oklab(0.905994 -0.00518361 -0.0129018)",
+          "shadow": "oklab(0.118463 -0.0123406 -0.0280019 / 0.721569) 0px -1px 1px, oklab(0.975641 -0.00882995 -0.0110183 / 0.129412) 0px 1px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 98.09999999403954,
+          "color": "oklab(0.93023 -0.0501648 -0.0056512)",
+          "shadow": "oklab(0.696652 -0.100806 -0.00784008 / 0.480265) 0px -0.143003px 2.71399px, oklab(0.860522 -0.119579 -0.00272964 / 0.395585) 0px 0.143003px 6.85597px, rgba(0, 6, 16, 0.62) 0px -0.856997px 0.428498px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 129.5,
+          "color": "oklab(0.933875 -0.0569287 -0.00456091)",
+          "shadow": "oklab(0.837956 -0.122426 -0.00291275 / 0.44398) 0px -0.0141345px 2.97173px, oklab(0.85538 -0.124526 -0.00235937 / 0.43561) 0px 0.0141345px 7.88692px, rgba(0, 6, 16, 0.71) 0px -0.985865px 0.492933px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 160.19999998807907,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.323922,
+          "rim": 0.26
+        },
+        {
+          "t": 191.69999998807907,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.623428,
+          "rim": 0.26
+        },
+        {
+          "t": 222.90000000596046,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.765283,
+          "rim": 0.307596
+        },
+        {
+          "t": 253.90000000596046,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.832649,
+          "rim": 0.508111
+        },
+        {
+          "t": 285.19999998807907,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.868761,
+          "rim": 0.589078
+        },
+        {
+          "t": 316.69999998807907,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.887993,
+          "rim": 0.620687
+        },
+        {
+          "t": 349,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.897347,
+          "rim": 0.634531
+        },
+        {
+          "t": 379.19999998807907,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.899986,
+          "rim": 0.639387
+        },
+        {
+          "t": 411.19999998807907,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 442,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 472.7999999821186,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 503.90000000596046,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 535.2999999821186,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 566.6999999880791,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 598.0999999940395,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 629.0999999940395,
+          "color": "color(srgb 0.747451 0.967059 0.932549)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "resting": {
+        "color": "rgb(39, 57, 74)",
+        "colorRGB": [
+          39,
+          57,
+          74
+        ],
+        "textShadow": "rgba(21, 41, 61, 0.18) 0px -1px 1px, rgba(255, 255, 255, 0.85) 0px 1px 0px",
+        "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+        "energy": 0.1,
+        "rim": 0.26,
+        "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+        "angle": "35deg",
+        "strength": ".4",
+        "outline": "rgb(39, 57, 74) none 3px",
+        "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+        "disabled": false,
+        "selected": null,
+        "rect": {
+          "width": 64,
+          "height": 64
+        },
+        "iconFilter": "drop-shadow(rgba(21, 41, 61, 0.18) 0px -0.5px 0.4px) drop-shadow(rgba(255, 255, 255, 0.85) 0px 0.5px 0.2px)",
+        "iconColor": "rgb(39, 57, 74)",
+        "reflectionDisplay": "block"
+      },
+      "frames": [
+        {
+          "t": 16.30000001192093,
+          "color": "rgb(39, 57, 74)",
+          "shadow": "rgba(21, 41, 61, 0.18) 0px -1px 1px, rgba(255, 255, 255, 0.85) 0px 1px 0px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 47.70000001788139,
+          "color": "rgb(39, 57, 74)",
+          "shadow": "rgba(21, 41, 61, 0.18) 0px -1px 1px, rgba(255, 255, 255, 0.85) 0px 1px 0px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 80.40000000596046,
+          "color": "oklab(0.336787 -0.0145209 -0.0352499)",
+          "shadow": "oklab(0.274506 -0.0157147 -0.0427434 / 0.180392) 0px -1px 1px, oklab(0.999994 0.0000455678 0.0000200868 / 0.85098) 0px 1px 0px, rgba(0, 0, 0, 0) 0px 0px 0px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 110.40000000596046,
+          "color": "oklab(0.404093 -0.0410614 -0.0315766)",
+          "shadow": "oklab(0.79003 -0.112802 -0.00683891 / 0.231455) 0px -0.143353px 2.71329px, oklab(0.908914 -0.0784428 -0.00145036 / 0.327586) 0px 0.143353px 6.85318px, rgba(21, 41, 61, 0.153) 0px -0.856647px 0.428324px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 141.5,
+          "color": "oklab(0.414218 -0.0450539 -0.031024)",
+          "shadow": "oklab(0.848531 -0.12382 -0.00276452 / 0.239137) 0px -0.014485px 2.97103px, oklab(0.862061 -0.118819 -0.0022068 / 0.24885) 0px 0.014485px 7.88412px, rgba(21, 41, 61, 0.176) 0px -0.985515px 0.492757px",
+          "energy": 0.1,
+          "rim": 0.26
+        },
+        {
+          "t": 172.90000000596046,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.325851,
+          "rim": 0.26
+        },
+        {
+          "t": 204.10000002384186,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.62383,
+          "rim": 0.26
+        },
+        {
+          "t": 235,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.764566,
+          "rim": 0.305763
+        },
+        {
+          "t": 266.5,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.832743,
+          "rim": 0.508366
+        },
+        {
+          "t": 297.5,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.868478,
+          "rim": 0.588565
+        },
+        {
+          "t": 329.10000002384186,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.887933,
+          "rim": 0.620598
+        },
+        {
+          "t": 360.10000002384186,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.897164,
+          "rim": 0.634252
+        },
+        {
+          "t": 391.2000000178814,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.899982,
+          "rim": 0.639362
+        },
+        {
+          "t": 422.60000002384186,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 453.5,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 484.90000000596046,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 516.6000000238419,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 548,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 578.7000000178814,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        },
+        {
+          "t": 609.9000000059605,
+          "color": "color(srgb 0.136157 0.327529 0.369412)",
+          "shadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+          "energy": 0.9,
+          "rim": 0.64
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "theme": "dark",
+      "label": "ordinary",
+      "state": "default",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "rgba(0, 6, 16, 0.72) 0px -1px 1px, rgba(238, 249, 255, 0.13) 0px 1px 0px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-ordinary-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "ordinary",
+      "state": "hover",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-78.11deg",
+      "strength": "0.762",
+      "outline": "color(srgb 0.747451 0.967059 0.932549) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-ordinary-hover-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "ordinary",
+      "state": "pressed",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "color(srgb 0.12298 0.262588 0.312784) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-89.13deg",
+      "strength": "0.797",
+      "outline": "color(srgb 0.747451 0.967059 0.932549) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "primary",
+      "state": "default",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "rgba(0, 6, 16, 0.72) 0px -1px 1px, rgba(238, 249, 255, 0.13) 0px 1px 0px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 161.609375,
+        "height": 49
+      },
+      "iconFilter": "drop-shadow(rgba(0, 6, 16, 0.72) 0px -0.5px 0.4px) drop-shadow(rgba(238, 249, 255, 0.13) 0px 0.5px 0.2px)",
+      "iconColor": "rgb(217, 225, 233)",
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-primary-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "primary",
+      "state": "hover",
+      "color": "color(srgb 0.750588 0.858824 0.992157)",
+      "colorRGB": [
+        191,
+        219,
+        253
+      ],
+      "textShadow": "color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 3px, color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-27.68deg",
+      "strength": "0.762",
+      "outline": "color(srgb 0.750588 0.858824 0.992157) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 161.609375,
+        "height": 49
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 2px) drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.750588 0.858824 0.992157)",
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-primary-hover-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "primary",
+      "state": "pressed",
+      "color": "color(srgb 0.750588 0.858824 0.992157)",
+      "colorRGB": [
+        191,
+        219,
+        253
+      ],
+      "textShadow": "color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 3px, color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "color(srgb 0.124 0.227412 0.332157) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-33.79deg",
+      "strength": "0.797",
+      "outline": "color(srgb 0.750588 0.858824 0.992157) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 161.609375,
+        "height": 49
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 2px) drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.750588 0.858824 0.992157)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "navigation",
+      "state": "default",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "rgba(0, 6, 16, 0.72) 0px -1px 1px, rgba(238, 249, 255, 0.13) 0px 1px 0px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "selected": null,
+      "rect": {
+        "width": 98.8125,
+        "height": 42
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-navigation-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "navigation",
+      "state": "hover",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-80.84deg",
+      "strength": "0.771",
+      "outline": "color(srgb 0.747451 0.967059 0.932549) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "selected": null,
+      "rect": {
+        "width": 98.8125,
+        "height": 42
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-navigation-hover-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "navigation",
+      "state": "pressed",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "color(srgb 0.12298 0.262588 0.312784) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-89.33deg",
+      "strength": "0.798",
+      "outline": "color(srgb 0.747451 0.967059 0.932549) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "selected": null,
+      "rect": {
+        "width": 98.8125,
+        "height": 42
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "selected",
+      "state": "default",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, color(srgb 0.12298 0.262588 0.312784) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "color(srgb 0.747451 0.967059 0.932549) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "true",
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 2px) drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.747451 0.967059 0.932549)",
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-selected-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "selected",
+      "state": "hover",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, color(srgb 0.12298 0.262588 0.312784) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "3.33deg",
+      "strength": "0.762",
+      "outline": "color(srgb 0.747451 0.967059 0.932549) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "true",
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 2px) drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.747451 0.967059 0.932549)",
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-selected-hover-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "selected",
+      "state": "pressed",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "color(srgb 0.12298 0.262588 0.312784) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "0.24deg",
+      "strength": "0.797",
+      "outline": "color(srgb 0.747451 0.967059 0.932549) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "true",
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 2px) drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.747451 0.967059 0.932549)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "disabled",
+      "state": "default",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "none",
+      "background": "rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "none",
+      "disabled": true,
+      "selected": null,
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "none",
+      "iconColor": "rgb(217, 225, 233)",
+      "reflectionDisplay": "none",
+      "backgroundFile": "screenshots/dark-disabled-default-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "ordinary",
+      "state": "focus",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "34.89deg",
+      "strength": "0.400",
+      "outline": "rgb(94, 234, 212) solid 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/dark-focus-background.png"
+    },
+    {
+      "theme": "dark",
+      "label": "ordinary",
+      "state": "leave-control",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "rgba(0, 6, 16, 0.72) 0px -1px 1px, rgba(238, 249, 255, 0.13) 0px 1px 0px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.64,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "34.00deg",
+      "strength": "0.403",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "ordinary",
+      "state": "leave-page",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "rgba(0, 6, 16, 0.72) 0px -1px 1px, rgba(238, 249, 255, 0.13) 0px 1px 0px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "34.90deg",
+      "strength": "0.400",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "before-icon",
+      "state": "default",
+      "color": "rgb(229, 231, 235)",
+      "colorRGB": [
+        229,
+        231,
+        235
+      ],
+      "textShadow": "none",
+      "background": "rgba(0, 0, 0, 0) linear-gradient(rgba(90, 153, 203, 0.58), rgba(19, 59, 93, 0.9)) repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.85,
+      "rim": 0.704,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(229, 231, 235) none 3px",
+      "transition": "box-shadow 0.11s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.11s cubic-bezier(0.2, 0.7, 0.2, 1)",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "none",
+      "iconColor": "rgb(229, 231, 235)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "before-icon",
+      "state": "hover",
+      "color": "rgb(229, 231, 235)",
+      "colorRGB": [
+        229,
+        231,
+        235
+      ],
+      "textShadow": "none",
+      "background": "color(srgb 0.235123 0.342789 0.403966 / 0.527) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.85,
+      "rim": 1,
+      "energyTransform": "none",
+      "angle": "2.56deg",
+      "strength": "0.771",
+      "outline": "rgb(229, 231, 235) none 3px",
+      "transition": "box-shadow 0.11s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.11s cubic-bezier(0.2, 0.7, 0.2, 1)",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "none",
+      "iconColor": "rgb(229, 231, 235)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "fallback",
+      "state": "low",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "none",
+      "background": "rgb(25, 51, 78) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "none",
+      "disabled": true,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "none"
+    },
+    {
+      "theme": "dark",
+      "label": "fallback",
+      "state": "static",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "none",
+      "background": "rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "none",
+      "disabled": true,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "none"
+    },
+    {
+      "theme": "dark",
+      "label": "fallback",
+      "state": "standard",
+      "color": "color(srgb 0.747451 0.967059 0.932549)",
+      "colorRGB": [
+        191,
+        247,
+        238
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "color(srgb 0.747451 0.967059 0.932549) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "dark",
+      "label": "fallback",
+      "state": "no-blur",
+      "color": "rgb(217, 225, 233)",
+      "colorRGB": [
+        217,
+        225,
+        233
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "rgb(25, 51, 78) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(217, 225, 233) none 3px",
+      "transition": "none",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "none"
+    },
+    {
+      "theme": "dark",
+      "label": "local-blue-accent",
+      "state": "hover",
+      "color": "color(srgb 0.750588 0.858824 0.992157)",
+      "colorRGB": [
+        191,
+        219,
+        253
+      ],
+      "textShadow": "color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 3px, color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 8px, rgba(0, 6, 16, 0.72) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(106, 121, 140, 0.26), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgba(27, 41, 58, 0.92) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "3.33deg",
+      "strength": "0.762",
+      "outline": "color(srgb 0.750588 0.858824 0.992157) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 2px) drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.44) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.750588 0.858824 0.992157)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "ordinary",
+      "state": "default",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "rgba(21, 41, 61, 0.18) 0px -1px 1px, rgba(255, 255, 255, 0.85) 0px 1px 0px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-ordinary-default-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "ordinary",
+      "state": "hover",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-80.84deg",
+      "strength": "0.771",
+      "outline": "color(srgb 0.136157 0.327529 0.369412) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-ordinary-hover-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "ordinary",
+      "state": "pressed",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "rgba(0, 0, 0, 0) linear-gradient(rgb(183, 214, 237), rgb(209, 228, 243)) repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-89.33deg",
+      "strength": "0.798",
+      "outline": "color(srgb 0.136157 0.327529 0.369412) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "primary",
+      "state": "default",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "rgba(21, 41, 61, 0.18) 0px -1px 1px, rgba(255, 255, 255, 0.85) 0px 1px 0px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 161.609375,
+        "height": 49
+      },
+      "iconFilter": "drop-shadow(rgba(21, 41, 61, 0.18) 0px -0.5px 0.4px) drop-shadow(rgba(255, 255, 255, 0.85) 0px 0.5px 0.2px)",
+      "iconColor": "rgb(39, 57, 74)",
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-primary-default-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "primary",
+      "state": "hover",
+      "color": "color(srgb 0.138039 0.262588 0.405176)",
+      "colorRGB": [
+        35,
+        67,
+        103
+      ],
+      "textShadow": "color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 3px, color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-29.20deg",
+      "strength": "0.771",
+      "outline": "color(srgb 0.138039 0.262588 0.405176) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 161.609375,
+        "height": 49
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 2px) drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.138039 0.262588 0.405176)",
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-primary-hover-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "primary",
+      "state": "pressed",
+      "color": "color(srgb 0.138039 0.262588 0.405176)",
+      "colorRGB": [
+        35,
+        67,
+        103
+      ],
+      "textShadow": "color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 3px, color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "color(srgb 0.831059 0.897412 0.97051) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-33.98deg",
+      "strength": "0.798",
+      "outline": "color(srgb 0.138039 0.262588 0.405176) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 161.609375,
+        "height": 49
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 2px) drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.138039 0.262588 0.405176)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "navigation",
+      "state": "default",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "rgba(21, 41, 61, 0.18) 0px -1px 1px, rgba(255, 255, 255, 0.85) 0px 1px 0px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "selected": null,
+      "rect": {
+        "width": 98.8125,
+        "height": 42
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-navigation-default-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "navigation",
+      "state": "hover",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-80.84deg",
+      "strength": "0.771",
+      "outline": "color(srgb 0.136157 0.327529 0.369412) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "selected": null,
+      "rect": {
+        "width": 98.8125,
+        "height": 42
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-navigation-hover-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "navigation",
+      "state": "pressed",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "color(srgb 0.829804 0.940706 0.946667) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "-89.13deg",
+      "strength": "0.797",
+      "outline": "color(srgb 0.136157 0.327529 0.369412) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "selected": null,
+      "rect": {
+        "width": 98.8125,
+        "height": 42
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "selected",
+      "state": "default",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, color(srgb 0.829804 0.940706 0.946667) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "color(srgb 0.136157 0.327529 0.369412) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "true",
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 2px) drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.136157 0.327529 0.369412)",
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-selected-default-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "selected",
+      "state": "hover",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, color(srgb 0.829804 0.940706 0.946667) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "2.56deg",
+      "strength": "0.771",
+      "outline": "color(srgb 0.136157 0.327529 0.369412) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "true",
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 2px) drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.136157 0.327529 0.369412)",
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-selected-hover-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "selected",
+      "state": "pressed",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "color(srgb 0.829804 0.940706 0.946667) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "0.19deg",
+      "strength": "0.798",
+      "outline": "color(srgb 0.136157 0.327529 0.369412) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "true",
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 2px) drop-shadow(color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.136157 0.327529 0.369412)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "disabled",
+      "state": "default",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "none",
+      "background": "rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "none",
+      "disabled": true,
+      "selected": null,
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "none",
+      "iconColor": "rgb(39, 57, 74)",
+      "reflectionDisplay": "none",
+      "backgroundFile": "screenshots/light-disabled-default-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "ordinary",
+      "state": "focus",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "34.89deg",
+      "strength": "0.400",
+      "outline": "rgb(22, 91, 155) solid 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block",
+      "backgroundFile": "screenshots/light-focus-background.png"
+    },
+    {
+      "theme": "light",
+      "label": "ordinary",
+      "state": "leave-control",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "rgba(21, 41, 61, 0.18) 0px -1px 1px, rgba(255, 255, 255, 0.85) 0px 1px 0px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.64,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "34.00deg",
+      "strength": "0.403",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "ordinary",
+      "state": "leave-page",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "rgba(21, 41, 61, 0.18) 0px -1px 1px, rgba(255, 255, 255, 0.85) 0px 1px 0px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "matrix(0.76, 0, 0, 0.76, 0, 0)",
+      "angle": "34.90deg",
+      "strength": "0.400",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "before-icon",
+      "state": "default",
+      "color": "rgb(31, 41, 51)",
+      "colorRGB": [
+        31,
+        41,
+        51
+      ],
+      "textShadow": "none",
+      "background": "rgba(0, 0, 0, 0) linear-gradient(rgba(255, 255, 255, 0.96), rgba(194, 218, 240, 0.85)) repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.85,
+      "rim": 0.704,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(31, 41, 51) none 3px",
+      "transition": "box-shadow 0.11s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.11s cubic-bezier(0.2, 0.7, 0.2, 1)",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "none",
+      "iconColor": "rgb(31, 41, 51)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "before-icon",
+      "state": "hover",
+      "color": "rgb(31, 41, 51)",
+      "colorRGB": [
+        31,
+        41,
+        51
+      ],
+      "textShadow": "none",
+      "background": "color(srgb 0.867679 0.96888 0.95678 / 0.785) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.85,
+      "rim": 1,
+      "energyTransform": "none",
+      "angle": "3.33deg",
+      "strength": "0.762",
+      "outline": "rgb(31, 41, 51) none 3px",
+      "transition": "box-shadow 0.11s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.11s cubic-bezier(0.2, 0.7, 0.2, 1)",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "none",
+      "iconColor": "rgb(31, 41, 51)",
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "fallback",
+      "state": "low",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "none",
+      "background": "rgb(237, 244, 251) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "none",
+      "disabled": true,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "none"
+    },
+    {
+      "theme": "light",
+      "label": "fallback",
+      "state": "static",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "none",
+      "background": "rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.1,
+      "rim": 0.26,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "none",
+      "disabled": true,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "none"
+    },
+    {
+      "theme": "light",
+      "label": "fallback",
+      "state": "standard",
+      "color": "color(srgb 0.136157 0.327529 0.369412)",
+      "colorRGB": [
+        35,
+        84,
+        94
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "color(srgb 0.136157 0.327529 0.369412) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "block"
+    },
+    {
+      "theme": "light",
+      "label": "fallback",
+      "state": "no-blur",
+      "color": "rgb(39, 57, 74)",
+      "colorRGB": [
+        39,
+        57,
+        74
+      ],
+      "textShadow": "color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 3px, color(srgb 0.368627 0.917647 0.831373 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "rgb(237, 244, 251) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "none",
+      "angle": "35deg",
+      "strength": ".4",
+      "outline": "rgb(39, 57, 74) none 3px",
+      "transition": "none",
+      "disabled": false,
+      "selected": "false",
+      "rect": {
+        "width": 99.546875,
+        "height": 46
+      },
+      "iconFilter": null,
+      "iconColor": null,
+      "reflectionDisplay": "none"
+    },
+    {
+      "theme": "light",
+      "label": "local-blue-accent",
+      "state": "hover",
+      "color": "color(srgb 0.138039 0.262588 0.405176)",
+      "colorRGB": [
+        35,
+        67,
+        103
+      ],
+      "textShadow": "color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 3px, color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 8px, rgba(21, 41, 61, 0.18) 0px -1px 0.5px",
+      "background": "linear-gradient(rgba(255, 255, 255, 0.97), rgba(0, 0, 0, 0) 70%) repeat scroll 0% 0% / auto padding-box border-box, rgb(237, 242, 247) none repeat scroll 0% 0% / auto padding-box border-box",
+      "energy": 0.9,
+      "rim": 0.64,
+      "energyTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "angle": "3.33deg",
+      "strength": "0.762",
+      "outline": "color(srgb 0.138039 0.262588 0.405176) none 3px",
+      "transition": "color 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), text-shadow 0.085s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s, box-shadow 0.18s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s",
+      "disabled": false,
+      "selected": null,
+      "rect": {
+        "width": 64,
+        "height": 64
+      },
+      "iconFilter": "drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 2px) drop-shadow(color(srgb 0.376471 0.647059 0.980392 / 0.24) 0px 0px 4px)",
+      "iconColor": "color(srgb 0.138039 0.262588 0.405176)",
+      "reflectionDisplay": "block"
+    }
+  ],
+  "motion": [
+    {
+      "theme": "dark",
+      "mode": "reduce",
+      "query": true,
+      "disabled": true,
+      "status": "Reduced motion · static rim lighting",
+      "input": "static",
+      "frame": "0",
+      "style": "",
+      "sensorPressed": "false"
+    },
+    {
+      "theme": "dark",
+      "mode": "no-preference",
+      "query": false,
+      "disabled": false,
+      "status": "Cursor-responsive rims · tilt off",
+      "input": "static",
+      "frame": "0",
+      "style": "",
+      "sensorPressed": "false"
+    },
+    {
+      "theme": "dark",
+      "mode": "reduce",
+      "query": true,
+      "disabled": true,
+      "status": "Reduced motion · static rim lighting",
+      "input": "static",
+      "frame": "0",
+      "style": "",
+      "sensorPressed": "false"
+    },
+    {
+      "theme": "dark",
+      "mode": "no-preference",
+      "query": false,
+      "disabled": false,
+      "status": "Cursor-responsive rims · tilt off",
+      "input": "static",
+      "frame": "0",
+      "style": "",
+      "sensorPressed": "false"
+    },
+    {
+      "theme": "light",
+      "mode": "reduce",
+      "query": true,
+      "disabled": true,
+      "status": "Reduced motion · static rim lighting",
+      "input": "static",
+      "frame": "0",
+      "style": "",
+      "sensorPressed": "false"
+    },
+    {
+      "theme": "light",
+      "mode": "no-preference",
+      "query": false,
+      "disabled": false,
+      "status": "Cursor-responsive rims · tilt off",
+      "input": "static",
+      "frame": "0",
+      "style": "",
+      "sensorPressed": "false"
+    },
+    {
+      "theme": "light",
+      "mode": "reduce",
+      "query": true,
+      "disabled": true,
+      "status": "Reduced motion · static rim lighting",
+      "input": "static",
+      "frame": "0",
+      "style": "",
+      "sensorPressed": "false"
+    },
+    {
+      "theme": "light",
+      "mode": "no-preference",
+      "query": false,
+      "disabled": false,
+      "status": "Cursor-responsive rims · tilt off",
+      "input": "static",
+      "frame": "0",
+      "style": "",
+      "sensorPressed": "false"
+    },
+    {
+      "case": "startup",
+      "disabled": true
+    }
+  ],
+  "lifecycle": [
+    {
+      "type": "pointermove",
+      "added": 4,
+      "removed": 4
+    },
+    {
+      "type": "pointerleave",
+      "added": 4,
+      "removed": 4
+    },
+    {
+      "type": "visibilitychange",
+      "added": 4,
+      "removed": 4
+    }
+  ],
+  "sensorEvidence": "Synthetic grant/teardown and native media-query switches; physical orientation NOT TESTED",
+  "errors": [],
+  "customerDependencies": false
+}

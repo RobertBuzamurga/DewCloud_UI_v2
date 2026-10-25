@@ -1,0 +1,426 @@
+{
+  "scope": "Actual rendered backgrounds with foreground ink hidden; interior label zone, actual icon stroke colour. Text threshold 4.5:1; non-text icons 3:1. Targeted samples, not full WCAG certification.",
+  "status": "PASS",
+  "samples": [
+    {
+      "theme": "dark",
+      "label": "primary",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(244, 250, 255)",
+      "file": "contrast-dark-primary-default.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 6.8
+    },
+    {
+      "theme": "dark",
+      "label": "primary",
+      "state": "hover",
+      "type": "text",
+      "color": "rgb(244, 250, 255)",
+      "file": "contrast-dark-primary-hover.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 5.69
+    },
+    {
+      "theme": "dark",
+      "label": "primary",
+      "state": "pressed",
+      "type": "text",
+      "color": "rgb(244, 250, 255)",
+      "file": "contrast-dark-primary-pressed.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 9.06
+    },
+    {
+      "theme": "dark",
+      "label": "teal",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(244, 255, 254)",
+      "file": "contrast-dark-teal-default.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 6.47
+    },
+    {
+      "theme": "dark",
+      "label": "teal",
+      "state": "hover",
+      "type": "text",
+      "color": "rgb(244, 255, 254)",
+      "file": "contrast-dark-teal-hover.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 5.72
+    },
+    {
+      "theme": "dark",
+      "label": "teal",
+      "state": "pressed",
+      "type": "text",
+      "color": "rgb(244, 250, 255)",
+      "file": "contrast-dark-teal-pressed.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 8.94
+    },
+    {
+      "theme": "dark",
+      "label": "danger",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(255, 240, 244)",
+      "file": "contrast-dark-danger-default.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 8.4
+    },
+    {
+      "theme": "dark",
+      "label": "danger",
+      "state": "hover",
+      "type": "text",
+      "color": "rgb(255, 240, 244)",
+      "file": "contrast-dark-danger-hover.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 7.26
+    },
+    {
+      "theme": "dark",
+      "label": "danger",
+      "state": "pressed",
+      "type": "text",
+      "color": "rgb(255, 240, 244)",
+      "file": "contrast-dark-danger-pressed.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 7.3
+    },
+    {
+      "theme": "dark",
+      "label": "default",
+      "state": "default",
+      "type": "icon",
+      "color": "rgb(229, 231, 235)",
+      "file": "contrast-dark-default-default.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 5.67
+    },
+    {
+      "theme": "dark",
+      "label": "default",
+      "state": "hover",
+      "type": "icon",
+      "color": "rgb(229, 231, 235)",
+      "file": "contrast-dark-default-hover.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 7.08
+    },
+    {
+      "theme": "dark",
+      "label": "default",
+      "state": "pressed",
+      "type": "icon",
+      "color": "rgb(229, 231, 235)",
+      "file": "contrast-dark-default-pressed.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 7.9
+    },
+    {
+      "theme": "dark",
+      "label": "selected",
+      "state": "default",
+      "type": "icon",
+      "color": "rgb(244, 252, 255)",
+      "file": "contrast-dark-selected-default.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 5.57
+    },
+    {
+      "theme": "dark",
+      "label": "selected",
+      "state": "hover",
+      "type": "icon",
+      "color": "rgb(244, 252, 255)",
+      "file": "contrast-dark-selected-hover.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 5.56
+    },
+    {
+      "theme": "dark",
+      "label": "selected",
+      "state": "pressed",
+      "type": "icon",
+      "color": "rgb(244, 252, 255)",
+      "file": "contrast-dark-selected-pressed.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 9.54
+    },
+    {
+      "theme": "dark",
+      "label": "secondary",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(229, 231, 235)",
+      "file": "contrast-dark-secondary-default.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 5.56
+    },
+    {
+      "theme": "dark",
+      "label": "secondary",
+      "state": "hover",
+      "type": "text",
+      "color": "rgb(229, 231, 235)",
+      "file": "contrast-dark-secondary-hover.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 7.21
+    },
+    {
+      "theme": "dark",
+      "label": "secondary",
+      "state": "pressed",
+      "type": "text",
+      "color": "rgb(229, 231, 235)",
+      "file": "contrast-dark-secondary-pressed.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 7.71
+    },
+    {
+      "theme": "dark",
+      "label": "panel-heading",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(229, 231, 235)",
+      "file": "contrast-dark-panel-heading.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 6.69
+    },
+    {
+      "theme": "dark",
+      "label": "panel-muted",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(184, 205, 224)",
+      "file": "contrast-dark-panel-muted.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 6.45
+    },
+    {
+      "theme": "dark",
+      "label": "field",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(229, 231, 235)",
+      "file": "contrast-dark-field.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 9.48
+    },
+    {
+      "theme": "light",
+      "label": "primary",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(255, 255, 255)",
+      "file": "contrast-light-primary-default.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 7.26
+    },
+    {
+      "theme": "light",
+      "label": "primary",
+      "state": "hover",
+      "type": "text",
+      "color": "rgb(244, 250, 255)",
+      "file": "contrast-light-primary-hover.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 5.7
+    },
+    {
+      "theme": "light",
+      "label": "primary",
+      "state": "pressed",
+      "type": "text",
+      "color": "rgb(244, 250, 255)",
+      "file": "contrast-light-primary-pressed.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 9.08
+    },
+    {
+      "theme": "light",
+      "label": "teal",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(255, 255, 255)",
+      "file": "contrast-light-teal-default.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 6.61
+    },
+    {
+      "theme": "light",
+      "label": "teal",
+      "state": "hover",
+      "type": "text",
+      "color": "rgb(244, 255, 254)",
+      "file": "contrast-light-teal-hover.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 5.8
+    },
+    {
+      "theme": "light",
+      "label": "teal",
+      "state": "pressed",
+      "type": "text",
+      "color": "rgb(244, 250, 255)",
+      "file": "contrast-light-teal-pressed.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 9.08
+    },
+    {
+      "theme": "light",
+      "label": "danger",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(255, 255, 255)",
+      "file": "contrast-light-danger-default.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 9.43
+    },
+    {
+      "theme": "light",
+      "label": "danger",
+      "state": "hover",
+      "type": "text",
+      "color": "rgb(255, 240, 244)",
+      "file": "contrast-light-danger-hover.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 7.33
+    },
+    {
+      "theme": "light",
+      "label": "danger",
+      "state": "pressed",
+      "type": "text",
+      "color": "rgb(255, 240, 244)",
+      "file": "contrast-light-danger-pressed.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 7.35
+    },
+    {
+      "theme": "light",
+      "label": "default",
+      "state": "default",
+      "type": "icon",
+      "color": "rgb(31, 41, 51)",
+      "file": "contrast-light-default-default.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 12.05
+    },
+    {
+      "theme": "light",
+      "label": "default",
+      "state": "hover",
+      "type": "icon",
+      "color": "rgb(31, 41, 51)",
+      "file": "contrast-light-default-hover.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 12.77
+    },
+    {
+      "theme": "light",
+      "label": "default",
+      "state": "pressed",
+      "type": "icon",
+      "color": "rgb(31, 41, 51)",
+      "file": "contrast-light-default-pressed.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 10.1
+    },
+    {
+      "theme": "light",
+      "label": "selected",
+      "state": "default",
+      "type": "icon",
+      "color": "rgb(255, 255, 255)",
+      "file": "contrast-light-selected-default.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 5.81
+    },
+    {
+      "theme": "light",
+      "label": "selected",
+      "state": "hover",
+      "type": "icon",
+      "color": "rgb(255, 255, 255)",
+      "file": "contrast-light-selected-hover.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 5.87
+    },
+    {
+      "theme": "light",
+      "label": "selected",
+      "state": "pressed",
+      "type": "icon",
+      "color": "rgb(255, 255, 255)",
+      "file": "contrast-light-selected-pressed.png",
+      "requiredRatio": 3,
+      "minimumSampledRatio": 8.34
+    },
+    {
+      "theme": "light",
+      "label": "secondary",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(31, 41, 51)",
+      "file": "contrast-light-secondary-default.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 11.93
+    },
+    {
+      "theme": "light",
+      "label": "secondary",
+      "state": "hover",
+      "type": "text",
+      "color": "rgb(31, 41, 51)",
+      "file": "contrast-light-secondary-hover.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 12.91
+    },
+    {
+      "theme": "light",
+      "label": "secondary",
+      "state": "pressed",
+      "type": "text",
+      "color": "rgb(31, 41, 51)",
+      "file": "contrast-light-secondary-pressed.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 10.0
+    },
+    {
+      "theme": "light",
+      "label": "panel-heading",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(31, 41, 51)",
+      "file": "contrast-light-panel-heading.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 12.72
+    },
+    {
+      "theme": "light",
+      "label": "panel-muted",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(61, 83, 104)",
+      "file": "contrast-light-panel-muted.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 6.86
+    },
+    {
+      "theme": "light",
+      "label": "field",
+      "state": "default",
+      "type": "text",
+      "color": "rgb(31, 41, 51)",
+      "file": "contrast-light-field.png",
+      "requiredRatio": 4.5,
+      "minimumSampledRatio": 13.17
+    }
+  ]
+}

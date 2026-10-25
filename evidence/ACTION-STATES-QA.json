@@ -1,0 +1,84 @@
+{
+  "states": [
+    {
+      "theme": "dark",
+      "name": "primary",
+      "state": "hover",
+      "color": "rgb(244, 250, 255)"
+    },
+    {
+      "theme": "dark",
+      "name": "primary",
+      "state": "pressed",
+      "color": "rgb(244, 250, 255)",
+      "background": "linear-gradient(rgb(18, 91, 112), rgb(11, 49, 73))"
+    },
+    {
+      "theme": "dark",
+      "name": "teal",
+      "state": "hover",
+      "color": "rgb(244, 255, 254)"
+    },
+    {
+      "theme": "dark",
+      "name": "teal",
+      "state": "pressed",
+      "color": "rgb(244, 250, 255)",
+      "background": "linear-gradient(rgb(18, 91, 112), rgb(11, 49, 73))"
+    },
+    {
+      "theme": "dark",
+      "name": "danger",
+      "state": "hover",
+      "color": "rgb(255, 240, 244)"
+    },
+    {
+      "theme": "dark",
+      "name": "danger",
+      "state": "pressed",
+      "color": "rgb(255, 240, 244)",
+      "background": "linear-gradient(rgb(145, 65, 92), rgb(99, 40, 63))"
+    },
+    {
+      "theme": "light",
+      "name": "primary",
+      "state": "hover",
+      "color": "rgb(244, 250, 255)"
+    },
+    {
+      "theme": "light",
+      "name": "primary",
+      "state": "pressed",
+      "color": "rgb(244, 250, 255)",
+      "background": "linear-gradient(rgb(18, 91, 112), rgb(11, 49, 73))"
+    },
+    {
+      "theme": "light",
+      "name": "teal",
+      "state": "hover",
+      "color": "rgb(244, 255, 254)"
+    },
+    {
+      "theme": "light",
+      "name": "teal",
+      "state": "pressed",
+      "color": "rgb(244, 250, 255)",
+      "background": "linear-gradient(rgb(18, 91, 112), rgb(11, 49, 73))"
+    },
+    {
+      "theme": "light",
+      "name": "danger",
+      "state": "hover",
+      "color": "rgb(255, 240, 244)"
+    },
+    {
+      "theme": "light",
+      "name": "danger",
+      "state": "pressed",
+      "color": "rgb(255, 240, 244)",
+      "background": "linear-gradient(rgb(145, 65, 92), rgb(99, 40, 63))"
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

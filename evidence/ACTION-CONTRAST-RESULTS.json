@@ -1,0 +1,152 @@
+[
+  {
+    "theme": "dark",
+    "name": "primary",
+    "state": "hover",
+    "color": "rgb(244, 250, 255)",
+    "sample_background": [
+      27,
+      97,
+      152
+    ],
+    "ratio": 6.22
+  },
+  {
+    "theme": "dark",
+    "name": "primary",
+    "state": "pressed",
+    "color": "rgb(244, 250, 255)",
+    "background": "linear-gradient(rgb(18, 91, 112), rgb(11, 49, 73))",
+    "sample_background": [
+      15,
+      69,
+      92
+    ],
+    "ratio": 9.85
+  },
+  {
+    "theme": "dark",
+    "name": "teal",
+    "state": "hover",
+    "color": "rgb(244, 255, 254)",
+    "sample_background": [
+      10,
+      100,
+      118
+    ],
+    "ratio": 6.64
+  },
+  {
+    "theme": "dark",
+    "name": "teal",
+    "state": "pressed",
+    "color": "rgb(244, 250, 255)",
+    "background": "linear-gradient(rgb(18, 91, 112), rgb(11, 49, 73))",
+    "sample_background": [
+      14,
+      68,
+      91
+    ],
+    "ratio": 10.0
+  },
+  {
+    "theme": "dark",
+    "name": "danger",
+    "state": "hover",
+    "color": "rgb(255, 240, 244)",
+    "sample_background": [
+      122,
+      53,
+      78
+    ],
+    "ratio": 7.77
+  },
+  {
+    "theme": "dark",
+    "name": "danger",
+    "state": "pressed",
+    "color": "rgb(255, 240, 244)",
+    "background": "linear-gradient(rgb(145, 65, 92), rgb(99, 40, 63))",
+    "sample_background": [
+      121,
+      53,
+      77
+    ],
+    "ratio": 7.83
+  },
+  {
+    "theme": "light",
+    "name": "primary",
+    "state": "hover",
+    "color": "rgb(244, 250, 255)",
+    "sample_background": [
+      26,
+      96,
+      151
+    ],
+    "ratio": 6.31
+  },
+  {
+    "theme": "light",
+    "name": "primary",
+    "state": "pressed",
+    "color": "rgb(244, 250, 255)",
+    "background": "linear-gradient(rgb(18, 91, 112), rgb(11, 49, 73))",
+    "sample_background": [
+      15,
+      69,
+      92
+    ],
+    "ratio": 9.85
+  },
+  {
+    "theme": "light",
+    "name": "teal",
+    "state": "hover",
+    "color": "rgb(244, 255, 254)",
+    "sample_background": [
+      10,
+      100,
+      118
+    ],
+    "ratio": 6.64
+  },
+  {
+    "theme": "light",
+    "name": "teal",
+    "state": "pressed",
+    "color": "rgb(244, 250, 255)",
+    "background": "linear-gradient(rgb(18, 91, 112), rgb(11, 49, 73))",
+    "sample_background": [
+      14,
+      68,
+      91
+    ],
+    "ratio": 10.0
+  },
+  {
+    "theme": "light",
+    "name": "danger",
+    "state": "hover",
+    "color": "rgb(255, 240, 244)",
+    "sample_background": [
+      122,
+      53,
+      78
+    ],
+    "ratio": 7.77
+  },
+  {
+    "theme": "light",
+    "name": "danger",
+    "state": "pressed",
+    "color": "rgb(255, 240, 244)",
+    "background": "linear-gradient(rgb(145, 65, 92), rgb(99, 40, 63))",
+    "sample_background": [
+      121,
+      53,
+      77
+    ],
+    "ratio": 7.83
+  }
+]

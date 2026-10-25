@@ -1,0 +1,1 @@
+Owner-approved v1.0.1 / etched.1. Read RELEASE-APPROVAL.md and SOURCE-RIGHTS-AND-ATTRIBUTION.md, then README.md / ETCHED-GLASS-IMPLEMENTATION.md. Serve this folder with python -B -m http.server 8900 --bind 127.0.0.1 and open http://127.0.0.1:8900/?theme=dark. Verify using python -B tools/verify_release.py and python -B tools/verify_reference.py. No build or external dependencies.

@@ -1,0 +1,120 @@
+[
+  {
+    "surface": "reference",
+    "theme": "dark",
+    "frameCount": 17,
+    "start": 1792879697205,
+    "frames": [
+      {
+        "label": "default",
+        "capturedMs": -287,
+        "file": "screenshots/sequence-reference-dark-default.png",
+        "box": {
+          "x": 348.5,
+          "y": 462.3125,
+          "width": 64,
+          "height": 64
+        },
+        "source": "pre-hover screenshot"
+      },
+      {
+        "label": "early",
+        "targetMs": 65,
+        "capturedMs": 61.617919921875,
+        "file": "screenshots/sequence-reference-dark-early.png",
+        "box": {
+          "x": 348.5,
+          "y": 462.3125,
+          "width": 64,
+          "height": 64
+        },
+        "source": "native-hover compositor frame"
+      },
+      {
+        "label": "interior",
+        "targetMs": 150,
+        "capturedMs": 155.366943359375,
+        "file": "screenshots/sequence-reference-dark-interior.png",
+        "box": {
+          "x": 348.5,
+          "y": 462.3125,
+          "width": 64,
+          "height": 64
+        },
+        "source": "native-hover compositor frame"
+      },
+      {
+        "label": "settled",
+        "targetMs": 450,
+        "capturedMs": 467.60205078125,
+        "file": "screenshots/sequence-reference-dark-settled.png",
+        "box": {
+          "x": 348.5,
+          "y": 462.3125,
+          "width": 64,
+          "height": 64
+        },
+        "source": "native-hover compositor frame"
+      }
+    ]
+  },
+  {
+    "surface": "reference",
+    "theme": "light",
+    "frameCount": 17,
+    "start": 1792879700112,
+    "frames": [
+      {
+        "label": "default",
+        "capturedMs": -280,
+        "file": "screenshots/sequence-reference-light-default.png",
+        "box": {
+          "x": 348.5,
+          "y": 462.3125,
+          "width": 64,
+          "height": 64
+        },
+        "source": "pre-hover screenshot"
+      },
+      {
+        "label": "early",
+        "targetMs": 65,
+        "capturedMs": 60.848876953125,
+        "file": "screenshots/sequence-reference-light-early.png",
+        "box": {
+          "x": 348.5,
+          "y": 462.3125,
+          "width": 64,
+          "height": 64
+        },
+        "source": "native-hover compositor frame"
+      },
+      {
+        "label": "interior",
+        "targetMs": 150,
+        "capturedMs": 154.239990234375,
+        "file": "screenshots/sequence-reference-light-interior.png",
+        "box": {
+          "x": 348.5,
+          "y": 462.3125,
+          "width": 64,
+          "height": 64
+        },
+        "source": "native-hover compositor frame"
+      },
+      {
+        "label": "settled",
+        "targetMs": 450,
+        "capturedMs": 467.080078125,
+        "file": "screenshots/sequence-reference-light-settled.png",
+        "box": {
+          "x": 348.5,
+          "y": 462.3125,
+          "width": 64,
+          "height": 64
+        },
+        "source": "native-hover compositor frame"
+      }
+    ]
+  }
+]

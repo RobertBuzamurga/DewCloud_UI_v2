@@ -1,0 +1,83 @@
+{
+  "name": "DewCloud Liquid Glass UI Reference",
+  "version": "1.0.1",
+  "status": "CORRECTION_CANDIDATE_PENDING_REVIEW",
+  "palette": {
+    "background": "#132139",
+    "surface": "#18263B",
+    "tealPrimary": "#5EEAD4",
+    "tealSecondary": "#2DD4BF",
+    "bluePrimary": "#60A5FA",
+    "blueSecondary": "#3B82F6",
+    "textDark": "#E5E7EB",
+    "textLight": "#1F2933"
+  },
+  "material": {
+    "panelRadius": 18,
+    "controlRadius": 999,
+    "fieldRadius": 14,
+    "blur": 10,
+    "rimWidth": 1.5,
+    "iconRimWidth": 1.9,
+    "panelAlpha": 0.88,
+    "rimRestOpacity": 0.3,
+    "rimResponse": 0.2,
+    "backgroundGradient": {
+      "ambient": "#16445F",
+      "start": "#0C1E32",
+      "end": "#10283F"
+    },
+    "panelDark": "rgba(18,44,69,.88)",
+    "controlTopDark": "rgba(106,121,140,.26)",
+    "controlBottomDark": "rgba(29,43,60,.94)",
+    "reflectionTopAlpha": 0.17,
+    "reflectionWashAlpha": 0.07,
+    "reflectionBaseAlpha": 0.06,
+    "controlInnerGlowAlpha": 0.035,
+    "hoverInnerGlowAlpha": 0.07,
+    "hoverOuterGlowAlpha": 0
+  },
+  "motion": {
+    "pressMs": 110,
+    "settleMs": 180,
+    "easing": "cubic-bezier(.2,.7,.2,1)",
+    "lightingMaxFps": 31.25,
+    "smoothing": 0.23,
+    "nearDistancePx": 180,
+    "tiltClampDegrees": 22,
+    "idleLoop": false
+  },
+  "themes": [
+    "dark",
+    "light",
+    "auto"
+  ],
+  "effects": [
+    "standard",
+    "static",
+    "low"
+  ],
+  "notes": [
+    "Navy shell and original core palette unchanged; ordinary controls have neutral resting material.",
+    "Etched.1 is foreground-led; see etching timings. CSS remains the executable source.",
+    "Per-control --dc-accent resolves ink, interior and supporting rim locally.",
+    "No artwork or customer dependencies; no whole-control filter."
+  ],
+  "refinement": "etched.1",
+  "etching": {
+    "accent": "#5EEAD4",
+    "overrides": "--dc-accent on any control; blue/teal presets optional",
+    "restingInkDark": "#D9E1E9",
+    "restingInkLight": "#27394A",
+    "foregroundMs": 85,
+    "interiorMs": 240,
+    "interiorDelayMs": 75,
+    "rimMs": 180,
+    "rimDelayMs": 150,
+    "interiorRestOpacity": 0.1,
+    "interiorLitOpacity": 0.9,
+    "rimRestOpacity": 0.26,
+    "rimLitOpacity": 0.64,
+    "noWholeControlFilter": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "DewCloud Liquid Glass UI Reference",
+  "candidate": "etched.2",
+  "status": "IN_PROGRESS_REFERENCE_IMAGES_REQUIRED",
+  "base": "1.0.1 / etched.1",
+  "scope": "Reusable DewCloud UI material and illumination only",
+  "layoutChanged": false,
+  "referencePair": {
+    "image1": "27 October conversation reference; not yet recovered",
+    "image2": "27 October conversation reference; not yet recovered"
+  },
+  "timings": {
+    "foregroundMs": {"baseline": 85, "candidate": null},
+    "interiorDelayMs": {"baseline": 75, "candidate": null},
+    "interiorDurationMs": {"baseline": 240, "candidate": null},
+    "rimDelayMs": {"baseline": 150, "candidate": null},
+    "rimDurationMs": {"baseline": 180, "candidate": null}
+  },
+  "materialTokens": {
+    "buttonSurface": null,
+    "buttonEdge": null,
+    "illuminationColour": null,
+    "illuminationSpread": null,
+    "rimTreatment": null
+  },
+  "validation": {
+    "dark": "pending",
+    "light": "pending",
+    "hover": "pending",
+    "focus": "pending",
+    "selected": "pending",
+    "pressed": "pending",
+    "disabled": "pending",
+    "geometryTypographyAccessibilityBehaviour": "preserve"
+  }
+}
